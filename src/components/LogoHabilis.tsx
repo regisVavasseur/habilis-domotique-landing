@@ -1,0 +1,54 @@
+import React from "react";
+
+const LogoHabilis: React.FC<{ className?: string }> = ({ className = "" }) => {
+  return (
+    <div className={`flex items-center gap-2 ${className}`}>
+      <svg
+        width="32"
+        height="32"
+        viewBox="0 0 40 40"
+        xmlns="http://www.w3.org/2000/svg"
+        className="flex-shrink-0"
+      >
+        <rect x="0" y="0" width="40" height="40" rx="12" fill="#0F60FF" />
+        <path
+          d="M12 20.5L20 13L28 20.5V28C28 28.5523 27.5523 29 27 29H13C12.4477 29 12 28.5523 12 28V20.5Z"
+          fill="none"
+          stroke="#FFFFFF"
+          strokeWidth="2"
+          strokeLinejoin="round"
+        />
+        <rect
+          x="18"
+          y="22"
+          width="4"
+          height="7"
+          rx="1"
+          fill="none"
+          stroke="#FFFFFF"
+          strokeWidth="1.6"
+        />
+        <path
+          d="M26 11.5C27.933 12.61 29.25 14.676 29.25 17"
+          stroke="#E3EEFF"
+          strokeWidth="1.4"
+          strokeLinecap="round"
+          fill="none"
+        />
+        <path
+          d="M24.7 13.2C25.685 13.77 26.3 14.81 26.3 15.9"
+          stroke="#E3EEFF"
+          strokeWidth="1.2"
+          strokeLinecap="round"
+          fill="none"
+        />
+      </svg>
+
+      <span className="font-semibold tracking-[0.18em] text-xs uppercase text-slate-900">
+        HABILIS
+      </span>
+    </div>
+  );
+};
+
+export default LogoHabilis;
