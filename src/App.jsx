@@ -737,13 +737,6 @@ const App = () => {
               <li className="flex items-center gap-2"><Mail className="w-4 h-4" /> contact@habilis-domotique.fr</li>
             </ul>
           </div>
-          <div>
-            <h3 className="text-white font-semibold mb-4">Suivez-nous</h3>
-            <div className="flex gap-4">
-              <a href="#" className="hover:text-blue-500 transition"><Facebook className="w-6 h-6" /></a>
-              <a href="#" className="hover:text-pink-500 transition"><Instagram className="w-6 h-6" /></a>
-            </div>
-          </div>
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-8 border-t border-slate-800 text-center text-xs">
           © 2024 Habilis Domotique. Tous droits réservés. Mentions Légales. CGV.
