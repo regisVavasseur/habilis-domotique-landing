@@ -734,9 +734,7 @@ const App = () => {
           <div>
             <h3 className="text-white font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-sm">
-              <li className="flex items-center gap-2"><Phone className="w-4 h-4" /> 06 64 10 91 21</li>
               <li className="flex items-center gap-2"><Mail className="w-4 h-4" /> contact@habilis-domotique.fr</li>
-              <li>Lundi - Samedi : 9h - 19h</li>
             </ul>
           </div>
           <div>
